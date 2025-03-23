@@ -15,6 +15,8 @@ RUN apt-get update && apt-get install -y \
     noaa-apt \
     cron \
     predict \
+    tree \
+    vim \
     && apt-get clean
 
 # 2️⃣ Create working directories
